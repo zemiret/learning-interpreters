@@ -232,7 +232,7 @@ class NodeVisitor(object):
         return visitor(node)
 
     def generic_visit(self, node):
-        raise Exception('No visit_{} method'.format(type(node).__name__))
+        raise Exception('No visit_{} meBthod'.format(type(node).__name__))
 
 
 class Interpreter(NodeVisitor):
